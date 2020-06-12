@@ -49,7 +49,7 @@ checking --- scalability and tractability.  We have been using
 query decomposition rather successfully in all our subsequent work on automatic
 equivalence checking and verification.
 
-## [OOElala: Order-Of-Evaluation based Alias Analysis for compiler optimization](https://raw.githubusercontent.com/compilerai/compilerai-publications/master/ooelala.pdf) - PLDI 2020
+## [OOElala: Order-Of-Evaluation based Alias Analysis for Compiler Optimization](https://raw.githubusercontent.com/compilerai/compilerai-publications/master/ooelala.pdf) - PLDI 2020
 It is well known that if you write an expression in your C
 program like "a+b", the evaluation of this expression can proceed in
 either order (e.g., either first 'a' then 'b', or first 'b' then 'a').
