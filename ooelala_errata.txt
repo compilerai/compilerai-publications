@@ -1,0 +1,5 @@
+Minor correction to minmax example on the second page:
+*min = (a[i] < a[*min]) ? i : *min;
+*max = (a[i] < a[*max]) ? i : *max;
+
+The example in the paper incorrectly compares a[i] to *min (and *max) whereas it should actually be comparing a[i] to a[*min] (and a[*max]).
