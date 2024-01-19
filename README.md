@@ -66,5 +66,15 @@ loop inversion, loop unrolling, loop splitting, loop peeling, loop unswitching,
 loop invariant code motion, and more.  The algorithm is blackbox in nature, i.e.,
 it makes almost no assumptions on the transformations performed by the compiler.
 Evaluations over O3 transformations produced by three compilers (GCC, Clang/LLVM, and
-ICC) for the Testsuite of Vectorizing Compilers (TSVC) demonstrate a significant
-improvement over the state of the art.
+ICC) for the [Testsuite of Vectorizing Compilers (TSVC)](https://github.com/UoB-HPC/TSVC_2)
+demonstrate a significant improvement over the state of the art.
+
+## [Automatic Generation of Debug Headers through Blackbox Equivalence Checking](https://sorav.compiler.ai/pubs/debugheaders.pdf) - CGO 2022
+This [paper](https://sorav.compiler.ai/pubs/debugheaders.pdf) presents an
+algorithm to populate the debug headers of an optimized executable
+using an automatic blackbox equivalence checker.  Because compiler developers
+de-prioritize the correct maintenance of debugging headers in the presence
+of aggressive compiler optimizations, our automatic tool improves the
+information contained in debugging headers by 75% (for Clang/LLVM), 73% (for GCC),
+and 12% (for ICC) when evaluated on the [Testsuite for Vectorizing Compilers (TSVC)](https://github.com/UoB-HPC/TSVC_2)
+with O3 optimizations.
