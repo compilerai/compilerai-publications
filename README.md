@@ -18,7 +18,7 @@ strategy based on the available (automatically inferred) cross-ISA translations.
 
 ## [Fast Dynamic Binary Translation for the Kernel](https://sorav.compiler.ai/pubs/btkernel.pdf) - SOSP 2013
 This [paper](https://sorav.compiler.ai/pubs/btkernel.pdf)
-presents an architecture for Dynamic Binary Translation for the Operating System kernel (virtualizes the OS kernel through DBT). The code generator used in this work is based on our [ASPLOS 2006 paper on automatic generation of peephole optimizers](https://raw.githubusercontent.com/compilerai/compilerai-publications/master/asplos06.pdf).
+presents an architecture for Dynamic Binary Translation for the Operating System kernel (virtualizes the OS kernel through DBT). The code generator used in this work is based on our [ASPLOS 2006 paper on automatic generation of peephole optimizers](https://sorav.compiler.ai/pubs/asplos06.pdf).
 
 ## [Black-box Equivalence Checking across Compiler Optimizations](https://sorav.compiler.ai/pubs/aplas17.pdf) - APLAS 2017
 This [paper](https://sorav.compiler.ai/pubs/aplas17.pdf)
